@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f0f553-5687-41f9-ba59-a168f1ea3b0d" name="Default Changelist" comment="" />
+    <list default="true" id="b9f0f553-5687-41f9-ba59-a168f1ea3b0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bài tập/tạo danh sách/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bài tập/tạo danh sách/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lệnh cơ bản html.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +32,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bài tập/tạo danh sách" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bài 6/thực hành" />
+  </component>
+  <component name="RunManager">
+    <configuration name="simpleform.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/thực hành lệnh cơ bản html/_04_JavaScript/simpleform.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.simpleform.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -41,6 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1630503388204</updated>
       <workItem from="1630503390291" duration="327000" />
+      <workItem from="1632061022609" duration="4146000" />
+      <workItem from="1632067435449" duration="17000" />
     </task>
     <servers />
   </component>
@@ -48,9 +64,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1630503711306">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="686" y="215" key="FileChooserDialogImpl" timestamp="1632067444281">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1630503711306" />
+    <state x="686" y="215" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1632067444281" />
   </component>
 </project>

@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<button type="button" onclick="showMessage();">click me!</button>
+<script>
+    function showMessage() {
+        alert('xin chao');
+    }
+</script>
+
+
+<div id="messageDiv"></div>
+<button type="button" onclick="showMessage();">Click me!</button>
+<script>
+    function showMessage() {
+        document.getElementById('messageDiv').innerText = 'Xin chao!';
+    }
+</script>
+
+<button type="button" onclick="showMessage();">Click me!</button>
+<script>
+    function showMessage() {
+        document.write('Xin chao');
+    }
+</script>
+
+
+<button type="button" onclick="showMessage();">click me!</button>
+<script>
+    function showMessage() {
+        console.log('xin chao');
+    }
+</script>
 </body>
 </html>
