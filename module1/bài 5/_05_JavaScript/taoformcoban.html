@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div style="background-color: orange">
+        <h1 style="text-align: center; color: white">SỞ THÍCH CỦA BẠN</h1>
+    </div>
+    <label>Họ và tên</label>
+    <input type="text" value="" id="name">
+    </br>
+    <label>email</label>
+    <input type="text" value="" id="email">
+    </br>
+    <lable> sở thích </lable>
+    </br>
+    <input type="checkbox" name="hobby">
+    <label class="label-hobby">thể thao</label>
+    </br>
+    <input type="checkbox" name="hobby">
+    <label class="label-hobby">lướt web  </label>
+    </br>
+    <input type="checkbox" name="hobby">
+    <label class="label-hobby">du lịch  </label>
+    </br>
+    <input type="checkbox" name="hobby">
+    <label class="label-hobby"> âm nhạc </label>
+    </br>
+    <input type="checkbox" name="hobby">
+    <label class="label-hobby">chơi game</label>
+    </br>
+    <input type="checkbox" name="hobby">
+    <label class="label-hobby">đọc sách</label>
+    </br>
+    <input type="checkbox" name="hobby">
+    <label class="label-hobby">điện ảnh</label>
+    </br>
+    <button onclick="showInformation()">gửi thông tin</button>
+    <button onclick="resetForm()">nhập lại</button>
+<script>
+    function showInformation() {
+        var name=document.getElementById("name").value;
+        var email=document.getElementById("email").value;
+        var hobby=document.getElementsByName("hobby");
+        var labelHobby=document.getElementsByClassName("label-hobby");
+        for (var i=0;i<hobby.length;i++){
+            if (hobby[i].checked){
+                console.log( "sở thích:" +labelHobby[i].textContent);
+            }
+        }
+        console.log("name:" + name);
+        console.log("email:" + email);
+
+
+    }
+    function resetForm() {
+        var name=document.getElementById("name").value="";
+        var email=document.getElementById("email").value="";
+        var hobby=document.getElementsByName("hobby");
+        for (var i=0;i<hobby.length;i++){
+            hobby[i].checked=false;
+        }
+    }
+</script>
+</body>
+</html>

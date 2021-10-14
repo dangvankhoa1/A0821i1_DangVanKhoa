@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="background-color: yellow" id="form">
+<div style="background-color: aquamarine">
+    <p style="text-align: center; color: blue">ĐĂNG KÍ HỌC VIÊN</p>
+</div>
+<label style="color: blue">họ và tên:</label>
+<input type="text" value="" id="name">
+</br>
+<label style="color: blue">ngày sinh:</label>
+<input type="text" value="" id="tuoi">
+</br>
+<label  style="color: blue">giới tính:</label>
+</br>
+<label class="gioitinh">nam</label>
+<input type="checkbox" name="gentle">
+</br>
+<label class="gioitinh"> nữ</label>
+<input type="checkbox" name="gentle">
+</br>
+<label style="color: blue">địa chỉ</label>
+<input type="text" value="" id="diachi">
+</br>
+<label style="color: blue">lớp</label>
+<select id="lop">
+<option>-chọn lớp-</option>
+    <option>A0821I1</option>
+</select>
+</br>
+<label style="color: blue">email</label>
+<input type="text" value="" id="email">
+</br>
+<label style="color: blue"> Điện thoại </label>
+<input type="text" value="" id="phone">
+</br>
+<button onclick="showInformation()">đăng kí</button>
+<button onclick="resetForm()">nhập lại</button>
+</div>
+</body>
+<script>
+    function showInformation() {
+        var name=document.getElementById("name").value;
+        var tuoi=document.getElementById("tuoi").value;
+        var email=document.getElementById("email").value;
+        var diachi=document.getElementById("diachi").value;
+        var phone=document.getElementById("phone").value;
+        var sel=document.getElementById("lop");
+        var gioiTinh=document.getElementsByClassName("gioitinh");
+        for (var i=0;i<gentle.length;i++){
+            if (gentle[i].checked){
+                console.log("giới tính:" + gioiTinh[i].textContent);
+            }
+        }
+        console.log("họ và tên:" + name);
+        console.log("ngày sinh:" + tuoi);
+        console.log("email:" + email);
+        console.log("địa chỉ: " +diachi);
+        console.log("số điện thoại:" +phone);
+    }
+    function resetForm() {
+        var name=document.getElementById("name").value;
+        var tuoi=document.getElementById("tuoi").value;
+        var email=document.getElementById("email").value;
+        var diachi=document.getElementById("diachi").value;
+        var phone=document.getElementById("phone").value;
+        var sel=document.getElementById("lop");
+    }
+</script>
+</html>
