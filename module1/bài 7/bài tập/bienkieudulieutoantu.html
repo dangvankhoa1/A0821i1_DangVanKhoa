@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+</body>
+<script>
+    let inputLi;
+    let inputHoa;
+    let inputSinh;
+    inputLi = prompt("nhập điểm lí:");
+    inputHoa = prompt("nhập điểm hóa:");
+    inputSinh = prompt("nhập điểm sinh:");
+    let li = parseInt(inputLi);
+    let hoa = parseInt(inputHoa);
+    let sinh = parseInt(inputSinh);
+    let average = (li + hoa + sinh) / 3;
+    document.write("average = " + average);
+    document.write("<br>");
+    let total = li + hoa + sinh;
+    document.write("total = " + total);
+</script>
+</html>
